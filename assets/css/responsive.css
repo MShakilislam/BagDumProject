@@ -1,0 +1,89 @@
+
+@media all and (max-width:990px){
+
+	.menu_icon{
+		display: block;
+	}
+	.menu ul{
+		display: none;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 62px;
+		padding: 10px;
+		background: rgba(0, 0, 0, .6);
+		z-index: 99;
+	}
+	.menu{
+		position: relative;
+	}
+	.menu ul li a{
+		padding: 5px 0;
+	}
+	.menu ul li a:after{
+		display: none;
+	}
+	/*slider area*/
+	 .carousel-item img{
+	 	height: 100vh !important;
+	 	width: auto !important;
+	 }
+
+
+
+}
+
+
+@media all and (min-width:990px){
+	.menu ul{
+		display: flex !important;
+	}
+
+}
+
+@media all and (max-width:767px){
+
+	.section_padding{
+		padding: 50px 0;
+	}
+	.banner-text h1{
+		font-size: 80px;
+		text-shadow: 0 0 5px #000;
+	}
+	.banner-text h1 span {
+		font-size: 30px;
+	}
+	.logo a{
+		font-size: 25px;
+	}
+	.featuer_header h2 {
+		width: 100%;
+		margin: auto;
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.section_heading p {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.single_member {
+		margin-bottom: 20px;
+	}
+	.subscribe h1 {
+		font-size: 30px;
+	}
+	
+
+	.items-1,.items-2,.items-3,.items-4,.items-5,.items-6{
+		grid-template-columns: 1/8;
+	}
+
+}
+
+@media all and (max-width: 575px){
+	.menu_icon{
+		position: absolute;
+		top: -48px;
+		right: 0;
+	}
+}

@@ -1,0 +1,659 @@
+/*
+Template Name:Bagdum
+Template URI:http://bagdum.com
+Autor:MD SHAKIL ISLAM
+Autor URI:http://ashik.me
+Description:This is Bagdum Template
+
+
+
+*/
+
+@import url('../fonts/fonts.css');
+@import url('bootstrap.min.css');
+@import url('fontawesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url('font-awesome.4.7min.css');
+@import url('owl.theme.default.min.css');
+@import url('owl.carousel.min.css');
+
+a{
+	text-decoration: none;
+	font-weight: 400;
+	font-size:13px;
+	text-transform: uppercase;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+}
+h1{
+	font-family: 'Vidaloka';
+}
+h2{
+	color: #333333;
+	font-size: 30px;
+	font-family: 'Vidaloka';
+	font-weight: 400;
+	line-height: 50px;
+}
+h3{
+	color: #333333;
+	font-size: 18px;
+	font-family: 'Vidaloka';
+	font-weight: 400;
+}
+h4{
+	color: #ffeb3b;
+	font-size: 20px;
+	font-family: 'Vidaloka';
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h2 span{
+	text-decoration: underline;
+	color: #ffeb3b;
+	text-decoration-color: #ffeb3b;
+}
+p{
+	font-weight: 400;
+	font-size: 13px;
+	color: #969595;
+	font-family: 'Vidaloka';
+}
+.section_padding{
+	padding: 125px 0;
+}
+
+.section_heading p {
+	font-family: "Open Sans", sans-serif;
+	width: 65%;
+	margin: auto;
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 20px;
+}
+
+  /***********************************************/
+ /**************** 1 Header Area    *************/
+/***********************************************/
+.header-area{
+	/*background: url(../images/banner.jpg) no-repeat scroll 0 0 / 100% 100%;*/
+	padding-top:50px;
+	position: relative;
+	overflow: hidden;
+}
+.header-top-row {
+	padding-bottom: 20px;
+	border-bottom: 1.5px solid rgba(255,255,255,.3);
+}
+#bagdumCarousel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.carousel-control-next, .carousel-control-prev{
+	z-index: 5;
+}
+
+.header-container{
+	position: relative;
+	z-index: 2
+}
+.logo a{
+	font-family: 'Back to Black Demo';
+	font-size:28px;
+	color:#FFF;
+	text-transform: inherit;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-around;
+}
+.menu ul li a{
+	color:#FFF;
+	display:block;
+	position: relative;
+	font-family: 'Vidaloka';
+}
+.menu ul li a::after {
+	content: "";
+	width: 100%;
+	height: 1.5px;
+	background: #FFEB3B;
+	position: absolute;
+	bottom: -36px;
+	left: 0;
+	opacity: 0;
+	transition:.5s;
+}
+.menu ul li a:hover:after{
+	opacity: 1;
+}
+.menu ul li a:hover{
+	color: #FFEB3B;
+}
+
+.menu_icon{
+	float: right;
+	display: none;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 0 10px;
+	border-radius: 3%;
+	font-size: 20px;
+	padding-bottom: 2px;
+	line-height: 30px;
+}
+.menu_icon:hover{
+	color: #ffda00;
+	border-color: #ffda00;
+}
+
+
+
+
+
+
+.top-search{
+	position: relative;
+}
+.top-search a{
+	color:#FFF;
+}
+.top-search a span{
+	font-size:23px;
+}
+.top-search a i{
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+.banner-text{
+	padding:130px 0;
+}
+.banner-text h1{
+	font-size:180px;
+	font-family: 'Back to Black Demo';
+	color:#FFF;
+}
+.banner-text h1 span{
+	font-size: 70px;
+	display: block;
+}
+
+.search-box {
+	background: #FFEB3C;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	position: absolute;
+	right: 0;
+	z-index: 99;
+	display: none;
+}
+.search-box form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.search-box input {
+	border: none;
+	padding: 5px 10px;
+	color: #000;
+	font-size: 15px;
+}
+.search-box button {
+	border: none;
+	background: #000;
+	color: #FFF;
+	padding: 5px 13px;
+	font-size: 15px;
+}
+.custom_control{
+	font-size: 20px;
+	height: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-inner,.carousel-item{
+	height: 100%;
+}
+.carousel-item img{
+	height: 100% !important;
+	width: 100% !important;
+}
+
+  /************************************************/
+ /**************** 2 Featuer Area    *************/
+/************************************************/
+
+.featuer_header{}
+.featuer_header h2{
+	  width: 82%;
+  	margin: auto;
+}
+.single_featur{
+	margin-top: 70px;
+	cursor: pointer;
+}
+.single_featur:hover i{
+	color: #ffeb3b;
+}
+.single_featur i {
+	color: #e5e5e5;
+	font-size: 40px;
+}
+.featuer_icone{
+	border-right: 1px solid #e5e5e5;
+	flex-basis: 30%;
+	max-width: 30%;
+}
+
+.feater_text{
+	padding-left: 15px;
+}
+.feater_text h3{
+	margin-bottom: 25px;
+}
+
+	/************************************************/
+ /*************** 3 fun fact Area    *************/
+/************************************************/
+
+.fun_fact_area{
+	background: url('../images/fun.png') no-repeat scroll 0 0 / 100% 100%;
+	padding: 70px 0;
+}
+.single_fun{}
+.single_fun i{
+	color: #ffeb3b;
+	font-size: 40px;
+}
+.single_fun h1{
+	color: #fff;
+	font-size: 50px;
+	padding: 15px 0;
+}
+.single_fun h3{
+	color: #ffeb3b;
+}
+
+
+  /***********************************************/
+ /**************** 4 protfolio area *************/
+/***********************************************/
+
+.protfolio_menu{
+	margin-top: 70px;
+}
+.protfolio_menu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.protfolio_menu ul li {
+	color: #181a1f;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Open Sans", sans-serif;
+	margin: 0 5px;
+	border: 2px solid #ffda00;
+	padding: 8px 30px;
+	cursor: pointer;
+	transition: .5s;
+}
+.protfolio_menu ul li:hover{
+	background: #ffda00;
+}
+
+.protfolio_items{
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: 70px ;
+}
+.card-columns{
+	column-gap: 0;
+}
+.card-columns .card{
+	margin-bottom: 0;
+	border: none;
+	border-radius: none;
+	position: relative;
+	overflow: hidden;
+}
+.card-columns .card:hover .protfolio-overly{
+	visibility: visible;
+	opacity: 1;
+	top: 0;
+}
+
+.protfolio-overly{
+	position: absolute;
+	top: -100%;
+	left: 0;
+	background: rgba(251,221 , 47, .9);
+	padding: 50px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s;
+}
+.protfolio-overly h2{
+	font-size: 22px;
+}
+.protfolio-overly p{
+	color: #434242;
+	font-weight: 400;
+	font-family: "Open Sans", sans-serif;
+}
+.protfolio-overly a{
+	color: #181a1f;
+	display: inline-block;
+	font-size: 16px;
+	background: inherit;
+	border: 2px solid #181a1f;
+	padding: 7px 30px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	margin-top: 30px;
+	text-transform: capitalize;
+}
+.protfolio-overly a:hover{
+	background: #181a1f;
+	color: #fff;
+}
+
+
+
+  /***********************************************/
+ /**************** 5 Services Arta  *************/
+/***********************************************/
+
+.single_services {
+	background: tomato;
+	padding: 50px 20px;
+	color: #fff;
+	margin-bottom: 30px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+} 
+.single_services h3{
+	font-size: 20px;
+	color: #fff;
+	text-transform: capitalize;
+}
+.single_services p{
+	color: #fff;
+	padding: 15px 0;
+}
+.single_services a{
+	color: #ffeb3b;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.services_heading{
+	margin-bottom: 70px;
+}
+
+.services_area .col-md-4:nth-of-type(1) .single_services{
+	background: #ff5252;
+}
+.services_area .col-md-4:nth-of-type(2) .single_services{
+	background: #4caf50;
+}
+.services_area .col-md-4:nth-of-type(3) .single_services{
+	background: #673ab7;
+}
+.services_area .col-md-4:nth-of-type(4) .single_services{
+	background: #2196f3;
+}
+.services_area .col-md-4:nth-of-type(5) .single_services{
+	background: #ffeb3b;
+}
+.services_area .col-md-4:nth-of-type(6) .single_services{
+	background: #00bcd4;
+}
+
+ 	/***********************************************/
+ /**************** 6 Client area Css*************/
+/***********************************************/
+
+.client_area{
+	background: url(../images/clinet.png) no-repeat scroll 0 0 / 100% 100%;
+}
+
+.client_area .section_heading h2{
+	color: #fff;
+}
+.client_area .section_heading p{
+	color: #fff;
+	margin: 0;
+}
+
+.client_img{
+	margin-top: 70px;
+}
+.client_img img{
+	width: auto !important;
+	margin: auto;
+}
+.owl-dots{
+	margin-top: 30px !important;
+}
+
+.Client_corousel .owl-dot span{
+	border-radius: 0 !important;
+	background: #fff !important;
+}
+.Client_corousel .owl-dot.active span{
+	background: #ffdb00 !important;
+}
+
+
+  /***********************************************/
+ /**************** 7 Member area css*************/
+/***********************************************/
+
+.single_member{
+	border: 1px solid #f1f1f1;
+}
+.time_heading{
+	margin-bottom: 70px;
+}
+.member_img img{
+	width: 100%;
+	height: auto;
+}
+.member_details{
+	padding: 20px 20px 0 20px;
+	text-align: center;
+}
+.member_details h3{
+	font-size: 16px;
+}
+.member_details p{
+	padding: 15px 0;
+}
+
+.member_socials{
+	border-top: 1px solid #dadada;
+}
+.member_socials ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.member_socials ul li{}
+.member_socials ul li a {
+  display: block;
+  color: #dadada;
+  border: 1px solid #dadada;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  margin: 10px 7px;
+  transition: 1s;
+}
+.member_socials ul li:hover a {
+	background: #ffdb00;
+	color: #fff;
+	border-color: #ffdb00;
+}
+
+
+  /***********************************************/
+ /************* 8 Subscribe Area css*************/
+/***********************************************/
+
+.subscribe_area{
+	background: url(../images/member/subscribe.png) no-repeat scroll 0 0 / 100% 100%;
+}
+.subscribe{}
+.subscribe h1{
+	color: #fff;
+	font-size: 42px;
+}
+.subscribe p{
+	color: #969595;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	padding: 30px 0;
+}
+.subscribe form{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.subscribe form input[type="email"] {
+	width: calc(100% - 120px);
+	background: rgba(255, 255, 255, .2);
+	color: #fff;
+	border: none;
+	padding: 8px 15px;
+}
+.subscribe form input[type="email"]:focus{
+	box-shadow: 0 0 5px #ffeb3b;
+}
+.subscribe form input[type="submit"] {
+	background: #ffeb3b;
+	border: 1px solid #ffeb3b;
+	text-transform: uppercase;
+	color: #332f0c;
+	font-weight: 600;
+	width: 110px;
+	padding: 10px 0;
+	transition: 1s;
+}
+.subscribe form input[type="submit"]:hover{
+	background: #332f0c;
+	color: #ffeb3b;
+}
+
+  /***********************************************/
+ /************* 9 footer Area css ***************/
+/***********************************************/
+
+.footer_area{
+	background: url(../images/footer.png) no-repeat scroll 0 0 / 100% 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer p{
+	padding: 30px 0;
+}
+.footer p a{
+	color: #ffeb3b;
+}
+.footer{
+}
+.footer ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.footer ul li{}
+.footer ul li a{
+	display: block;
+	color: #fff;
+	font-size: 25px;
+	margin: 0 10px;
+	transition: 1s;
+}
+.footer ul li a:hover{
+	color:#ffeb3b ;
+}
+
+
+
+
+
+
+/*Prot Css*/
+.potter-item{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 315px);
+}
+.items img{
+	width: 100%;
+	height: auto;
+}
+.items{
+  background: tomato;
+  overflow: hidden;
+  position: relative;
+}
+.items-1 img{
+	height: 100%;
+	width: auto;
+}
+.items-1{
+    grid-column: 1/1;
+    grid-row: 1/3;
+}
+.items-2{
+    grid-column: 2/5;
+}
+.items-3{
+    grid-column: 5/8;
+}
+.items-4{
+    grid-column: 2/4;
+}
+.items-5{
+    grid-column: 4/6;
+}
+.items-6{
+    grid-column: 6/8;
+}
+
+.items:hover .protfolio-overly{
+	visibility: visible;
+	opacity: 1;
+	top: 0;
+}
